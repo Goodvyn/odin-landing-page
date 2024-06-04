@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    /* border: red solid 1px; */
+}
+
+.container {
+    border: green solid 2px;
+}
+
+.container-header-section {
+    background-color: #1f2937;
+    padding: 16px 0;
+}
+
+.container-header-section, .container-hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-header, .container-hero {
+    width: 70vw;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-header-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-link a, .hero-info-subtext, .container-hero-image {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-info-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.container-hero-section {
+    background-color: #1F2937;
+    padding: 88px 0;
+
+}
+
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.container-hero-info {
+    width: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-hero-info-subtext {
+    padding-bottom: 8px;
+}
+
+button {
+    border-radius: 6px;
+    padding: 6px 32px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-info-button {
+    background-color: #3882f6;
+    border: 0px;
+}
+
+.container-hero-image {
+    background-color: #6e737c;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content-cards-section {
+    height: 430px;
+    background-color: #fff;
+}
+
+.container-content-quote-section {
+    height: 430px;
+    background-color: #e5e7eb;
+}
+
+.container-content-action-section {
+    height: 350px;
+    background-color: #fff;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+}
