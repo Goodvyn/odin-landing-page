@@ -29,12 +29,13 @@ div {
 
 .container-header-section,
 .container-hero-section,
-.container-content-cards-section {
+.container-content-cards-section,
+.container-content-quote-section {
     display: flex;
     justify-content: center;
 }
 
-.container-header, .container-hero, .container-content-cards-content {
+.container-header, .container-hero, .container-content-cards-content, .container-content-quote {
     width: 70vw;
 }
 
@@ -125,7 +126,7 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 48px;
-    margin: 48px 0 88px;
+    margin: 48px 0 112px;
 }
 
 .container-content-cards-header {
@@ -159,12 +160,34 @@ button {
     width: 168px;
     height: 168px;
     border: #3882f6 solid 4px;
+
     border-radius: 15px;
 }
 
 .container-content-quote-section {
-    height: 430px;
     background-color: #e5e7eb;
+}
+
+.container-content-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 124px 7.5vw 108px;
+}
+
+.container-quote {
+
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.container-quote-author {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 8px;
 }
 
 .container-content-action-section {
