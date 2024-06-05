@@ -15,6 +15,7 @@ html {
 
 div {
     /* border: red solid 1px; */
+
 }
 
 .container {
@@ -26,12 +27,14 @@ div {
     padding: 16px 0;
 }
 
-.container-header-section, .container-hero-section {
+.container-header-section,
+.container-hero-section,
+.container-content-cards-section {
     display: flex;
     justify-content: center;
 }
 
-.container-header, .container-hero {
+.container-header, .container-hero, .container-content-cards-content {
     width: 70vw;
 }
 
@@ -69,8 +72,7 @@ a {
 
 .container-hero-section {
     background-color: #1F2937;
-    padding: 88px 0;
-
+    padding: 88px 0 120px;
 }
 
 .container-hero {
@@ -115,8 +117,49 @@ button {
 }
 
 .container-content-cards-section {
-    height: 430px;
     background-color: #fff;
+}
+
+.container-content-cards-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin: 48px 0 88px;
+}
+
+.container-content-cards-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.container-content-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 6vw;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 168px;
+    gap: 4px;
+}
+
+.card-subtext {
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-image {
+    width: 168px;
+    height: 168px;
+    border: #3882f6 solid 4px;
+    border-radius: 15px;
 }
 
 .container-content-quote-section {
