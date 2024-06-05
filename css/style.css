@@ -30,12 +30,17 @@ div {
 .container-header-section,
 .container-hero-section,
 .container-content-cards-section,
-.container-content-quote-section {
+.container-content-quote-section,
+.container-content-action-section {
     display: flex;
     justify-content: center;
 }
 
-.container-header, .container-hero, .container-content-cards-content, .container-content-quote {
+.container-header,
+.container-hero,
+.container-content-cards-content,
+.container-content-quote,
+.container-content-action {
     width: 70vw;
 }
 
@@ -95,7 +100,7 @@ a {
 }
 
 button {
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 6px 32px;
     font-size: 18px;
     font-weight: 800;
@@ -153,6 +158,7 @@ button {
 .card-subtext {
     color: #1f2937;
     font-size: 18px;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -161,7 +167,7 @@ button {
     height: 168px;
     border: #3882f6 solid 4px;
 
-    border-radius: 15px;
+    border-radius: 16px;
 }
 
 .container-content-quote-section {
@@ -188,11 +194,49 @@ button {
     font-weight: 800;
     color: #1F2937;
     margin-top: 8px;
+    margin-right: 48px;
 }
 
 .container-content-action-section {
-    height: 350px;
     background-color: #fff;
+    padding: 104px;
+
+}
+
+.container-content-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 0 126px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.container-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.container-action-text {
+    color: #e5e7eb;
+}
+
+.action-header {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.action-subtext {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button-action-signup {
+    background-color: #3882f6;
+    border: #e5e7eb solid 2px;
 }
 
 .footer {
