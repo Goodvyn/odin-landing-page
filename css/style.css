@@ -41,7 +41,7 @@ div {
 .container-content-cards-content,
 .container-content-quote,
 .container-content-action {
-    width: 70vw;
+    width: 1050px;
 }
 
 .container-header {
@@ -178,7 +178,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 124px 7.5vw 108px;
+    padding: 124px 108px 108px;
 }
 
 .container-quote {
